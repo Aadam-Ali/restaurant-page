@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/background.jpg");
+}
+
+header {
+  margin: 0.3125rem 0.625rem;
+  height: 3.75rem;
+  box-shadow: 0rem 0.0625rem 0.3125rem black;
+  background-color: rgba(24,22,25, 0.9);
+  color: #a76b09;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Staatliches', cursive;
+  border-radius: 0.1875rem;
+}
+
+header > h1 {
+  margin-left: 0.625rem;
+  font-size: 3rem;
+  margin-right: auto;
+}
+
+ul {
+  font-size: 1.25rem;
+  list-style-type: none;
+  margin: 0;
+  margin-right: 0.625rem;
+  padding: 0;
+  overflow: hidden;
+  right: 0;
+}
+
+li {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.card {
+  margin: 6.25rem auto ;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+  border-radius: 0.625rem;
+  background-color: rgba(39,42,49, 0.9);
+  color: #fff;
+}
+
+.menu-card {
+  margin: 6.25rem auto ;
+  width: 25%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 0.125rem 0.125rem 0.3125rem black;
+  border-radius: 0.625rem;
+  background-color: rgba(39,42,49, 0.9);
+  color: #fff;
+}
+
+.menu-item {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food-img {
+  padding-top: 0.625rem;
+  width: 18.75rem;
+  border-radius: 50%;
+}
+
+.location-img {
+  padding-bottom: 0.625rem;
+  width: 18.75rem;
+}
+
+.card > p {
+  text-align: center;
+  width: 90%;
+}
+
+footer {
+  font-family: 'Staatliches', cursive;
+  position: fixed;
+  bottom: 0.3125rem;
+  width: 100%;
+  background-color: rgba(24,22,25, 0.9);
+  color: #a76b09;
+}
+
+footer > p {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu-card {
+    width: 60%;
+  }
+
+  .card {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    height: 10rem;
+  }
+
+  .menu-card {
+    width: 90%;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
