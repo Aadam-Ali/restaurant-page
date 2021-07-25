@@ -12,6 +12,6 @@ There are no future plans at this time.
 There are currently no known bugs.
 
 ## Technologies Used
-HTML
-CSS
-JS (w/ Webpack)
+- HTML
+- CSS
+- JS (w/ Webpack)
